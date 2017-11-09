@@ -26,6 +26,10 @@ a:visited{
 	color: #6494e0;
 }
 
+footer{
+	border-top: 1px solid #aaaaaa;
+	margin: 30px 0 0;
+}
 
 .container{
 	display: inline-block;
