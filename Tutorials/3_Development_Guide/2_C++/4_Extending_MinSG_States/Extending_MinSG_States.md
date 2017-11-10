@@ -8,17 +8,17 @@ This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 Inte
 <!---Automaticly generated section. Do not edit!!!--->
 # Overview
 * 3.2 C++
-    * 3.2.1 [Creating a C++ Plugin](../../../3_Development_Guide/2_C++/1_Creating_a_C++_Plugin/Creating_a_C++_Plugin.html)
-    * 3.2.2 [Macros for EScript Bindings](../../../3_Development_Guide/2_C++/2_Macros_for_EScript_Bindings.html)
-    * 3.2.3 [Creating Object Bindings](../../../3_Development_Guide/2_C++/3_Creating_Object_Bindings/Creating_Object_Bindings.html)
-    * 3.2.4 [Extending MinSG States](../../../3_Development_Guide/2_C++/4_Extending_MinSG_States/Extending_MinSG_States.html)
+    * 3.2.1 [Creating a C++ Plugin](../../../3_Development_Guide/2_C++/1_Creating_a_C++_Plugin/Creating_a_C++_Plugin.md)
+    * 3.2.2 [Macros for EScript Bindings](../../../3_Development_Guide/2_C++/2_Macros_for_EScript_Bindings.md)
+    * 3.2.3 [Creating Object Bindings](../../../3_Development_Guide/2_C++/3_Creating_Object_Bindings/Creating_Object_Bindings.md)
+    * 3.2.4 [Extending MinSG States](../../../3_Development_Guide/2_C++/4_Extending_MinSG_States/Extending_MinSG_States.md)
 <!---END_INDEXSECTION--->
 
 # State
 
 This chapter provides an example of how to implement a State in C++ with bindings to EScript and how to use this state in EScript. This tutorial is the addition to the description of PADrend's States. 
 
-This tutorial assumes, that you have a working C++ plugin project according to the tutorial [Creating a C++ Plugin](../../../3_Development_Guide/2_C++/1_Creating_a_C++_Plugin/Creating_a_C++_Plugin.html)
+This tutorial assumes, that you have a working C++ plugin project according to the tutorial [Creating a C++ Plugin](../../../3_Development_Guide/2_C++/1_Creating_a_C++_Plugin/Creating_a_C++_Plugin.md)
 
 ## Implementing a State in C++
 
@@ -149,7 +149,7 @@ Now we need to add the source file `E_MyState.cpp` to the same folder and implem
     }
 <!---END_CODESECTION--->
 
-For further information about providing the EScript binding process you should read the [Creating Object Bindings](../../../3_Development_Guide/2_C++/3_Creating_Object_Bindings/Creating_Object_Bindings.html) tutorial in the C++ DevGuide. It seems very complicated at first but what you basically do is copying and working examples and replace the name of the class with your class name.
+For further information about providing the EScript binding process you should read the [Creating Object Bindings](../../../3_Development_Guide/2_C++/3_Creating_Object_Bindings/Creating_Object_Bindings.md) tutorial in the C++ DevGuide. It seems very complicated at first but what you basically do is copying and working examples and replace the name of the class with your class name.
 
 Now, you only need to call the `init` method of your new EScript class. 
 ```

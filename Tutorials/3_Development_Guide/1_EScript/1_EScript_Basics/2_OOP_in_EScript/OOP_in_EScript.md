@@ -8,9 +8,9 @@ This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 Inte
 <!---Automaticly generated section. Do not edit!!!--->
 # Overview
 * 3.1.1 EScript Basics
-    * 3.1.1.1 [Basic Language Features](../../../../3_Development_Guide/1_EScript/1_EScript_Basics/1_Basic_Language_Features/Basic_Language_Features.html)
-    * 3.1.1.2 [OOP in EScript](../../../../3_Development_Guide/1_EScript/1_EScript_Basics/2_OOP_in_EScript/OOP_in_EScript.html)
-    * 3.1.1.3 [Modules in EScript](../../../../3_Development_Guide/1_EScript/1_EScript_Basics/3_Modules_in_EScript/Modules_in_EScript.html)
+    * 3.1.1.1 [Basic Language Features](../../../../3_Development_Guide/1_EScript/1_EScript_Basics/1_Basic_Language_Features/Basic_Language_Features.md)
+    * 3.1.1.2 [OOP in EScript](../../../../3_Development_Guide/1_EScript/1_EScript_Basics/2_OOP_in_EScript/OOP_in_EScript.md)
+    * 3.1.1.3 [Modules in EScript](../../../../3_Development_Guide/1_EScript/1_EScript_Basics/3_Modules_in_EScript/Modules_in_EScript.md)
     * 3.1.1.4 Operators
     * 3.1.1.5 Traits
 <!---END_INDEXSECTION--->

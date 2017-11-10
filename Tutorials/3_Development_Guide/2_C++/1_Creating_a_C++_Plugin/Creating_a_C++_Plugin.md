@@ -8,10 +8,10 @@
 <!---Automaticly generated section. Do not edit!!!--->
 # Overview
 * 3.2 C++
-    * 3.2.1 [Creating a C++ Plugin](../../../3_Development_Guide/2_C++/1_Creating_a_C++_Plugin/Creating_a_C++_Plugin.html)
-    * 3.2.2 [Macros for EScript Bindings](../../../3_Development_Guide/2_C++/2_Macros_for_EScript_Bindings.html)
-    * 3.2.3 [Creating Object Bindings](../../../3_Development_Guide/2_C++/3_Creating_Object_Bindings/Creating_Object_Bindings.html)
-    * 3.2.4 [Extending MinSG States](../../../3_Development_Guide/2_C++/4_Extending_MinSG_States/Extending_MinSG_States.html)
+    * 3.2.1 [Creating a C++ Plugin](../../../3_Development_Guide/2_C++/1_Creating_a_C++_Plugin/Creating_a_C++_Plugin.md)
+    * 3.2.2 [Macros for EScript Bindings](../../../3_Development_Guide/2_C++/2_Macros_for_EScript_Bindings.md)
+    * 3.2.3 [Creating Object Bindings](../../../3_Development_Guide/2_C++/3_Creating_Object_Bindings/Creating_Object_Bindings.md)
+    * 3.2.4 [Extending MinSG States](../../../3_Development_Guide/2_C++/4_Extending_MinSG_States/Extending_MinSG_States.md)
 <!---END_INDEXSECTION--->
 
 # Creating a C++ Plugin
@@ -20,7 +20,7 @@ In this guide, it is shown how to properly setup a C++ Plugin Project, i.e., how
 There are two possibilities to create a Plugin Project. 
 You can either use an existing PADrend installation and create a separate project folder for your project (more involved), or you can simply build your project together with the PADrend source.
 For simplicity, we will use the second approach in the following guide.
-You should already be familiar how to build PADrend from source and have a working PADrend folder (see [Installation Guide](../../../1_Installation_Guide/1_Installation_Guide.html)).
+You should already be familiar how to build PADrend from source and have a working PADrend folder (see [Installation Guide](../../../1_Installation_Guide/1_Installation_Guide.md)).
 You can follow this guide to setup your project or download the ready-to-go [Example Project](./files/ExampleProject.zip) and modify it to your liking (the *ExampleProject* contains a little more functionality than this tutorial, like automatically setting the project name in `CMakeLists.txt` and `Main.cpp` based on your folder name).
 Furthermore, this guide assumes that you are using CMake to build PADrend (instead of a *ekki* script with CodeBlocks).
 
@@ -234,13 +234,13 @@ This concludes the c++ part of our simple c++ project and we can now build the l
 We first have to signalize CMake to include your new project folder in the build process of PADrend (not really necessary, but makes life easier).
 This can be done by simply adding the line `add_subdirectory(MyProject)` to the `CMakeLists.txt` file in the PADrend root folder.
 
-Now, you can build PADrend as usual (see [Installation Guide](../../../1_Installation_Guide/1_Installation_Guide.html)), e.g., by invoking `make` in the *build* directory.
+Now, you can build PADrend as usual (see [Installation Guide](../../../1_Installation_Guide/1_Installation_Guide.md)), e.g., by invoking `make` in the *build* directory.
 You should now have a new library `libExampleProject.so` (Linux), or `libExampleProject.dll` (Windows) in your *build* directory. 
 
 ## Loading your Plugin Library
 
 We are now ready to create an EScript plugin and load our c++ library.
-See [Installation Guide](../../1_EScript/2_PADrend_Basics/2_EScript_Plugin/EScript_Plugin.html) for a detailed introduction to EScript plugins.
+See [Installation Guide](../../1_EScript/2_PADrend_Basics/2_EScript_Plugin/EScript_Plugin.md) for a detailed introduction to EScript plugins.
 We create a new folder `MyProject` in the `plugins` folder of our project and create a new file `Plugin.escript` with the following content:
 
 <!---INCLUDE src=files/MyProject/plugins/MyProject/Plugin.escript, start=7, end=34--->

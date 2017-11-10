@@ -8,9 +8,9 @@ This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 Inte
 <!---Automaticly generated section. Do not edit!!!--->
 # Overview
 * 3.1.6 Useful Examples
-    * 3.1.6.1 [TextureProcessor](../../../../3_Development_Guide/1_EScript/6_Useful_Examples/1_Texture_Processor/TextureProcessor.html)
-    * 3.1.6.2 [HeightmapShader](../../../../3_Development_Guide/1_EScript/6_Useful_Examples/2_Heightmap_Shader/HeightmapShader.html)
-    * 3.1.6.3 [PostProcessEffect](../../../../3_Development_Guide/1_EScript/6_Useful_Examples/3_Post_Process_Effect/PostProcessEffect.html)
+    * 3.1.6.1 [TextureProcessor](../../../../3_Development_Guide/1_EScript/6_Useful_Examples/1_Texture_Processor/TextureProcessor.md)
+    * 3.1.6.2 [HeightmapShader](../../../../3_Development_Guide/1_EScript/6_Useful_Examples/2_Heightmap_Shader/HeightmapShader.md)
+    * 3.1.6.3 [PostProcessEffect](../../../../3_Development_Guide/1_EScript/6_Useful_Examples/3_Post_Process_Effect/PostProcessEffect.md)
 <!---END_INDEXSECTION--->
 
 # Shader example: Heightmap

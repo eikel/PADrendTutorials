@@ -8,8 +8,8 @@ This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 Inte
 <!---Automaticly generated section. Do not edit!!!--->
 # Overview
 * 3.1.1.5 Traits
-    * 3.1.1.5.1 [Traits](../../../../3_Development_Guide/1_EScript/1_EScript_Basics/5_Traits/1_Traits.html)
-    * 3.1.1.5.2 [Useful Traits](../../../../3_Development_Guide/1_EScript/1_EScript_Basics/5_Traits/2_Useful_Traits.html)
+    * 3.1.1.5.1 [Traits](../../../../3_Development_Guide/1_EScript/1_EScript_Basics/5_Traits/1_Traits.md)
+    * 3.1.1.5.2 [Useful Traits](../../../../3_Development_Guide/1_EScript/1_EScript_Basics/5_Traits/2_Useful_Traits.md)
 <!---END_INDEXSECTION--->
 
 # Useful Traits

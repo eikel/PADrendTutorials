@@ -8,10 +8,10 @@ This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 Inte
 <!---Automaticly generated section. Do not edit!!!--->
 # Overview
 * 3.2 C++
-    * 3.2.1 [Creating a C++ Plugin](../../3_Development_Guide/2_C++/1_Creating_a_C++_Plugin/Creating_a_C++_Plugin.html)
-    * 3.2.2 [Macros for EScript Bindings](../../3_Development_Guide/2_C++/2_Macros_for_EScript_Bindings.html)
-    * 3.2.3 [Creating Object Bindings](../../3_Development_Guide/2_C++/3_Creating_Object_Bindings/Creating_Object_Bindings.html)
-    * 3.2.4 [Extending MinSG States](../../3_Development_Guide/2_C++/4_Extending_MinSG_States/Extending_MinSG_States.html)
+    * 3.2.1 [Creating a C++ Plugin](../../3_Development_Guide/2_C++/1_Creating_a_C++_Plugin/Creating_a_C++_Plugin.md)
+    * 3.2.2 [Macros for EScript Bindings](../../3_Development_Guide/2_C++/2_Macros_for_EScript_Bindings.md)
+    * 3.2.3 [Creating Object Bindings](../../3_Development_Guide/2_C++/3_Creating_Object_Bindings/Creating_Object_Bindings.md)
+    * 3.2.4 [Extending MinSG States](../../3_Development_Guide/2_C++/4_Extending_MinSG_States/Extending_MinSG_States.md)
 <!---END_INDEXSECTION--->
 
 # Macros

@@ -8,8 +8,8 @@ This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 Inte
 <!---Automaticly generated section. Do not edit!!!--->
 # Overview
 * 3.1.5.6 Evaluation
-    * 3.1.5.6.1 [Image Compare](../../../../../3_Development_Guide/1_EScript/5_MinSG/6_Evaluation/1_Image_Compare/Image_Compare.html)
-    * 3.1.5.6.2 [Frame Time Measurement](../../../../../3_Development_Guide/1_EScript/5_MinSG/6_Evaluation/2_Frame_Time_Measurement/Frame_Time_Measurement.html)
+    * 3.1.5.6.1 [Image Compare](../../../../../3_Development_Guide/1_EScript/5_MinSG/6_Evaluation/1_Image_Compare/Image_Compare.md)
+    * 3.1.5.6.2 [Frame Time Measurement](../../../../../3_Development_Guide/1_EScript/5_MinSG/6_Evaluation/2_Frame_Time_Measurement/Frame_Time_Measurement.md)
 <!---END_INDEXSECTION--->
 
 # Image Compare
