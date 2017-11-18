@@ -159,7 +159,7 @@ See the process for building with Ninja, but choose another target. Not all targ
 * If the `patch` command exits with a "permission denied" error, run MSYS as administrator.
 * When using MinGW in a 32-bit version, set `CMAKE_C_FLAGS` to `-march=i586`. Without this, you probably will get [linker errors](http://stackoverflow.com/questions/130740/link-error-when-compiling-gcc-atomic-operation-in-32-bit-mode) when building OpenAL.
 * If receiving the error "expecting string instruction after rep", read the bug report [http://sourceforge.net/p/mingw/bugs/2031/](http://sourceforge.net/p/mingw/bugs/2031/)
-* If the linker reports {{{undefined reference to `__gxx_personality_v0'` (or similar), add `-lstdc++` to the CMake parameter `CMAKE_CXX_STANDARD_LIBRARIES`.
+* If the linker reports {{{undefined reference to `__gxx_personality_v0'`}}} (or similar), add `-lstdc++` to the CMake parameter `CMAKE_CXX_STANDARD_LIBRARIES`.
  You may also consider adding `-shared-libstdc++` to `CMAKE_CXX_FLAGS` (result is not confirmed.).
 * If CMake-GUI complains about a missing `libiconv-2.dll`, just copy it from your `MinGW/bin` folder into your CMake `bin` folder.
 * If CMake-GUI complains about a missing `windres.exe`, check the path. The auto detection may fail here.
